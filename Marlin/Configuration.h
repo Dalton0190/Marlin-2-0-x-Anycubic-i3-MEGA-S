@@ -75,7 +75,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(daltons_config_based_on_knutwurst)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(dalton_based_on_knutwurst)" // Who made the changes.
 
 /**
  * *** VENDORS PLEASE READ ***
