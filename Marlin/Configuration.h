@@ -75,7 +75,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(knutwurst)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(daltons_config_based_on_knutwurst)" // Who made the changes.
 
 /**
  * *** VENDORS PLEASE READ ***
@@ -772,7 +772,7 @@
  */
 
 #if ENABLED(KNUTWURST_MEGAS)
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 392 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 402.33 }
 #endif
 
 #if DISABLED(KNUTWURST_MEGAS)
@@ -1839,7 +1839,7 @@
 //
 // Short 2KHz beep when endstops are hit
 //
-#define ENDSTOP_BEEP
+//#define ENDSTOP_BEEP
 
 //
 // The duration and frequency for the UI feedback sound.

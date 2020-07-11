@@ -439,7 +439,7 @@ void AnycubicTouchscreenClass::HandleSpecialMenu()
   else if (strcmp(SelectedDirectory, "<pid tune hotend>") == 0)
   {
     SERIAL_ECHOLNPGM("Special Menu: PID Tune Hotend");
-    queue.inject_P(PSTR("M106 S204\nM303 E0 S210 C15 U1"));
+    queue.inject_P(PSTR("M106 S204\nM303 E0 S190 C8 U1"));
   }
   else if (strcmp(SelectedDirectory, "<pid tune ultrabase>") == 0)
   {
